@@ -2,7 +2,7 @@ import axios, { AxiosPromise } from "axios"
 import { CustomerData } from "../interface/CustomerData"
 import { useQuery } from "@tanstack/react-query"
 
-const API_URL = 'http://localhost:8080';
+const API_URL = 'https://projeto-app-carros-backend-production.up.railway.app';
 
 const fetchData = async (): AxiosPromise<CustomerData[]> => {
     const response = axios.get(API_URL + '/customer');

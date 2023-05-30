@@ -2,7 +2,7 @@ import axios, { AxiosPromise } from "axios";
 import { CarData } from "../interface/CarData";
 import { useMutation, useQueryClient } from "@tanstack/react-query";
 
-const API_URL = "http://localhost:8080"
+const API_URL = "https://projeto-app-carros-backend-production.up.railway.app"
 
 const postData = async (data: CarData): AxiosPromise<any> => {
     const response = axios.post(API_URL + '/car', data);

@@ -24,7 +24,7 @@ export function Card({ price, model, image, year, color, numberOfPorts} : CardPr
             <p><b>Ano: </b>{year}</p>
             <p><b>Cor: </b>{color}</p>
             <p><b>Portas: </b>{numberOfPorts}</p>
-            <p><a href="">Deletar</a></p>
+            
         </div>
     )
     
