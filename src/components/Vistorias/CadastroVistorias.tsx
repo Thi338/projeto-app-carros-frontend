@@ -3,7 +3,6 @@ import { useState } from "react";
 
 import { Link } from "react-router-dom";
 import { CardVistoria } from "./cardVistoria";
-import { SurveyData } from "../../interface/SurveyData";
 import { useSurveyData } from "../../hooks/useSurveyData";
 import { CreateVistoriaModal } from "./create-vistoria-modal/create-vistoria-modal";
 import './cadastroVistoria.css';
