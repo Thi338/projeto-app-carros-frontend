@@ -1,7 +1,6 @@
 import { useEffect, useState } from "react"
 import { useSurveyDataMutate } from "../../../hooks/useSurveyDataMutate"
 import { SurveyData } from "../../../interface/SurveyData"
-import Select from "react-select";
 import './create-vistoria-modal.css';
 
 interface InputProps {
@@ -24,10 +23,6 @@ const InputDate = ({ label, value, updateValue }: InputProps) => {
 
 }
 
-const options = [
-    { value: "Realizado", label: "REALIZADO"},
-    { value: "Reprovado", label: "REPROVADO"}
-]
 
 const InputCombo = ({ label, value, updateValue }: InputProps) => {
     return (
